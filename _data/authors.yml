@@ -1,9 +1,9 @@
 default_author:
-  name:           Your Name
-  picture:        your-photo.jpg
-  email:          your@email.com
+  name:           Hue/HyoJong Kim
+  #picture:        your-photo.jpg
+  email:          developerhue@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Some Details about yourself
+  description:    Boys Be Ambitious!
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
@@ -12,4 +12,4 @@ default_author:
   instagram:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/123123123123132123"
+  google_plus:    "http://plus.google.com/106614560259593800150"

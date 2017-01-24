@@ -1,7 +1,7 @@
-title:            Site Title
-description:      Site description for the metas.
-logo:             omikron.png
-disqus_shortname: shortname
+title:            Hue Log
+description:      Logs...
+#logo:             omikron.png
+disqus_shortname: HueLog
 # Assign a default image for your site's header and footer
 default_bg:       default_bg.jpg
 search:           true
@@ -42,11 +42,11 @@ jekyll-archives:
 
 # Owner/author information
 author:
-  name:           Your Name
-  picture:        your-photo.jpg
-  email:          your@email.com
+  name:           Hue/HyoJong Kim
+  #picture:        your-photo.jpg
+  email:          developerhue@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Some Details about yourself
+  description:    Boys Be Ambitious!
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
@@ -55,7 +55,7 @@ author:
   instagram:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/123123123123132123"
+  google_plus:    "http://plus.google.com/106614560259593800150"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -85,7 +85,7 @@ sitemap:
         - "/index.html"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Seoul
 future:      true
 markdown:    kramdown
 highlighter: rouge
