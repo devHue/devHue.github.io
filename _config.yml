@@ -1,9 +1,9 @@
-title:            Hue Logs
-description:      Just Do It
-#logo:             none
-disqus_shortname: HueLog
+title:            Site Title
+description:      Site description for the metas.
+logo:             omikron.png
+disqus_shortname: shortname
 # Assign a default image for your site's header and footer
-default_bg:       main_bg.jpg
+default_bg:       default_bg.jpg
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
@@ -14,9 +14,10 @@ animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url: https://devHue.github.io
-# baseurl:
-# # Gems used
+url:          http://hmfaysal.me/hmfaysal-omega-theme
+# baseurl:           
+
+# Gems used
 gems:
   - jekyll-feed
   - jekyll-archives
@@ -41,20 +42,20 @@ jekyll-archives:
 
 # Owner/author information
 author:
-  name:           Hue/HyoJong Kim
-  picture:        me.jpg
-  email:          developerhue@gmail.com
+  name:           Your Name
+  picture:        your-photo.jpg
+  email:          your@email.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Boys Be Ambitious!
+  description:    Some Details about yourself
   # Social networking links used in footer. Update and remove as you like.
   twitter:
-  facebook: "hyojong.kim.121"
-  github: "devHue"
+  facebook:
+  github:
   linkedin:
-  instagram: "hue_jonge/"
+  instagram:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "https://plus.google.com/117056725995674386058"
+  google_plus:    "http://plus.google.com/123123123123132123"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -84,7 +85,7 @@ sitemap:
         - "/index.html"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Seoul
+timezone:    America/New_York
 future:      true
 markdown:    kramdown
 highlighter: rouge
