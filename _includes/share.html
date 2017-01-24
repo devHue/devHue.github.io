@@ -1,73 +1,26 @@
-{% if page.share == true %}
-
-<div class="share-bar">
-  <ul class="share-buttons">
-    {% if site.share.facebook %}
-    <li class="share-facebook">
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | append: page.url}}" target="_blank" title="Share on Facebook">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square-o fa-stack-2x"></i>
-          <i class="fa fa-facebook fa-stack-1x"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.share.twitter %}
-    <li class="share-twitter">
-      <a href="https://twitter.com/intent/tweet?url={{ site.url | append: page.url }}&text={{page.title}}" target="_blank" title="Tweet">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square-o fa-stack-2x"></i>
-          <i class="fa fa-twitter fa-stack-1x"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.share.gplus %}
-    <li class="share-google-plus">
-      <a href="https://plus.google.com/share?url={{ site.url | append: page.url}}" target="_blank" title="Share on Google Plus">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square-o fa-stack-2x"></i>
-          <i class="fa fa-google-plus fa-stack-1x"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.share.linkedin %}
-    <li class="share-linkedin">
-      <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url | append: page.url }}&title={{page.title}}&summary={{page.description}}&source=" target="_blank" title="Share on LinkedIn">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle-thin fa-stack-2x"></i>
-          <i class="fa fa-linkedin fa-stack-1x"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.share.pinterest %}
-    <li class="share-pinterest">
-      <a href="http://pinterest.com/pin/create/button/?url{{ site.url | append: page.url }}=&description={{page.description}}" target="_blank" title="Pin it">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle-thin fa-stack-2x"></i>
-          <i class="fa fa-pinterest fa-stack-1x"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-
-    {% if site.share.email %}
-    <li class="share-envelope">
-      <a href="mailto:?&subject={{page.title}}&body={{page.description | append: ' ' | append: site.url | append: page.url}}" target="_blank" title="Email">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-circle-thin fa-stack-2x"></i>
-          <i class="fa fa-envelope-o fa-stack-1x"></i>
-        </span>
-      </a>
-    </li>
-    {% endif %}
-
-  </ul>
+<div class="post-share text-center">
+    <p class="light small">
+        Share this post
+    </p>
+    <ul class="social-mini">
+        <li>
+            <a href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape }}%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.author.twitter }}"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip"
+                title="Share on Twitter" itemprop="Twitter">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"
+                data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"
+                data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+    </ul>
 </div>
-{% endif %}
