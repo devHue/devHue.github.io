@@ -1,6 +1,6 @@
 title:            Hue Log
 description:      Logs...
-#logo:             omikron.png
+logo:             omikron.png
 disqus_shortname: HueLog
 # Assign a default image for your site's header and footer
 default_bg:       default_bg.jpg
