@@ -9,7 +9,7 @@ category: status
 tags: [status]
 image: 
   feature: 
-comments: false
+comments: true
 mathjax: 
 ---
 개발 중인 블로그입니다.
