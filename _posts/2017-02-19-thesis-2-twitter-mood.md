@@ -7,7 +7,7 @@ modified: 2017-02-19
 category: personal
 tags: [thesis]
 image: 
-  feature: 
+feature: 
 comments: true
 mathjax: true
 ---

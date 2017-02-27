@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8"> 
+
+
+<meta name="keywords" content="tags">
+
+
+<!-- Begin Jekyll SEO tag v2.1.0 -->
+<title>Latest Posts - Hue Log</title>
+<meta property="og:title" content="Latest Posts" />
+<meta name="description" content="Logs For All" />
+<meta property="og:description" content="Logs For All" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Hue Log" />
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "WebSite",
+"name": "Hue Log",
+"headline": "Latest Posts",
+"description": "Logs For All",
+"publisher": {"@type": "Organization",
+"logo": {"@type": "ImageObject",
+"url": "http://localhost:4000/omikron.png"}},
+"url": "http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hue Log" />
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/font-awesome.min.css" />
+
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/syntax.css" />
+
+
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/images/favicons/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/images/favicons/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/favicons/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/favicons/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/favicons/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/favicons/apple-touch-icon-144x144-precomposed.png">
+</head>
+
+<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
+
+<div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" id="search-input" class="search-field" placeholder="Search...">
+        <i id="search-close" class="fa fa-times-circle"></i>
+        <h4>Search results</h4>
+        <ul id="results-container" class="search-results post-list">
+        </ul>
+        <!-- /.search-results -->
+    </div>
+    <!-- /.search-form -->
+</div>
+<!-- ./search-wrapper -->
+
+    <div id="fade"></div>
+    <a id="slide" class="animated fade"></a>
+    <aside id="sidebar">
+        <nav id="navigation">
+            <h2>MENU</h2> <hr>
+            <ul>
+
+                <li>
+                
+                    <a href="http://localhost:4000/">Home</a>
+                
+                </li>
+
+                <li>
+                
+                    <a href="http://localhost:4000/categories">Categories</a>
+                
+                </li>
+
+                <li>
+                
+                    <a href="http://localhost:4000/tags">Tags</a>
+                
+                </li>
+            
+                <li><a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+
+    <header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url(http://localhost:4000/images/default_bg.jpg)" itemscope itemtype="http://schema.org/Organization">
+
+
+
+        <button class="menu-button animated fade dosearch">
+            <i class="fa fa-search"></i>
+        </button>
+
+
+
+        <div class="inner">
+            <div class="container">
+                <a class="brand light" href="http://localhost:4000" itemprop="url">
+                     <img itemprop="logo" src="http://localhost:4000/images/omikron.png" alt="Hue Log Logo" /> 
+                    <h1 class="blog-title light" itemprop="name">
+                        Hue Log
+                    </h1>
+                </a>
+                <h2 class="blog-description light bordered bordered-top" itemprop="description">
+                    Logs...
+                </h2>
+            </div>
+        </div>
+
+
+
+        <div class="decor-wrapper">
+            <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+                <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+                <path class="medium left" d="M0 100 L50 50 L0 33.3" fill="rgba(255,255,255, .3)"></path>
+                <path class="medium right" d="M100 100 L50 50 L100 33.3" fill="rgba(255,255,255, .3)"></path>
+                <path class="small left" d="M0 100 L50 50 L0 66.6" fill="rgba(255,255,255, .5)"></path>
+                <path class="small right" d="M100 100 L50 50 L100 66.6" fill="rgba(255,255,255, .5)"></path>
+                <path d="M0 99.9 L50 49.9 L100 99.9 L0 99.9" fill="rgba(255,255,255, 1)"></path>
+                <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
+            </svg>
+        </div>
+
+    </header>
+
+    <div id="main" class="content" role="main" itemprop="mainContentOfPage">
+        <div class="container">
+            <div class="row">
+                <div class="page-body" itemprop="description">
+                
+	
+		
+
+		
+		
+
+		
+
+		
+
+	    
+
+		
+	        
+			
+		
+<div class="row">
+	<article class="post post col-md-8 col-md-offset-2">
+		<header class="post-header">
+		
+		
+		
+				<h2 class="post-title text-center super lighter bordered-bottom">
+					<a href="http://localhost:4000/blog/thesis-2-twitter-mood">Twitter Mood Predicts the Stock Market</a> 
+		
+			</h2>
+
+			<div class="post-info text-center small">
+				<time datetime="2017-02-19T00:00:00+09:00" class="post-time">19 Feb 2017</time>
+
+			
+				
+			 
+				
+			in <span class="post-tags">
+				
+			
+				<a href="http://localhost:4000/categories/index.html#personal" data-toggle="tooltip" title="Other posts from the Personal category" rel="tag">
+					Personal
+				</a>
+			
+			
+			</span>
+				
+			
+			&nbsp;<span class="post-tags"><i class="fa fa-clock-o"></i>&nbsp;
+				
+
+				
+					<span class="time">19.288888888888888</span> minutes read
+				
+
+				
+				</span>
+			
+			</div>
+		</header>
+
+		<div class="post-body bordered-bottom">
+			 
+			
+		
+			<p>Twitter Mood Predicts the Stock Market author : Johan Bollen, Huina Mao, Xiaojun Zeng Abstract 행동 경제학(Behavioral Economics)은 감정이 근본적으로 개인의 행동이나 의사 결정에 영향을 미친다고 말한다. 이것은 또한 사회 전반에 적용되는가? 즉, 사회가 공동 의사 결정에 영향을 미치는 기분 또는 상태를 경험할 수 있는가? 그 확장에 의해 대중의 분위기는 경제 지표와 상관이 있고 심지어 예측력이 있습니까? 우리는 매우 큰 스케일의 트위터 피드에서 나온 집단의 기분이 DJIA(Dow Jones Industrial Average) 지수와 상호 관련이 있는지 조사했다. 우리는 OpinionFinder라는 긍정과 부정을 판단하는 툴과 6가지 분위기로 분류하는 GPOMS(Google-Profile of Mood States)라는 툴, 이 두 개의 툴로 트위터 피드를 매일 분석한다. 우리는 2008년 대선과...&hellip;</p>
+		
+			<div class="text-center">
+			
+				<a href="http://localhost:4000/blog/thesis-2-twitter-mood" data-toggle="tooltip" title="졸업작품을 위한 논문 번역 및 분석" class="more-link btn btn-danger btn-large">
+					<i class="fa fa-link"></i> read more...
+				</a>
+			
+			</div>
+		</div>
+	</article>
+</div>
+		
+	
+		
+
+		
+		
+
+		
+
+		
+
+	    
+
+		
+	        
+			
+		
+<div class="row">
+	<article class="post post col-md-8 col-md-offset-2">
+		<header class="post-header">
+		
+		
+		
+				<h2 class="post-title text-center super lighter bordered-bottom">
+					<a href="http://localhost:4000/blog/thesis-1-using-tweets">Using Tweets to Predict the Stock Market</a> 
+		
+			</h2>
+
+			<div class="post-info text-center small">
+				<time datetime="2017-02-16T00:00:00+09:00" class="post-time">16 Feb 2017</time>
+
+			
+				
+			 
+				
+			in <span class="post-tags">
+				
+			
+				<a href="http://localhost:4000/categories/index.html#thesis" data-toggle="tooltip" title="Other posts from the Thesis category" rel="tag">
+					Thesis
+				</a>
+			
+			
+			</span>
+				
+			
+			&nbsp;<span class="post-tags"><i class="fa fa-clock-o"></i>&nbsp;
+				
+
+				
+					<span class="time">1.5055555555555555</span> minutes read
+				
+
+				
+				</span>
+			
+			</div>
+		</header>
+
+		<div class="post-body bordered-bottom">
+			 
+			
+		
+			<p>Using Tweets to Predict the Stock Market author : Zhiang Hu, Jian Jiao, Jialu Zhu 1. Abstact 우리는 이 프로젝트를 통해 영향력 있는 트위터 유저와 그에 해당하는 하나의 주식 가격 움직임 사이의 관계를 찾아내려 한다. 우리가 사용할 데이터는 Tesla의 CEO인 Elon Musk의 트윗들과 Tesla의 주식 가격이다. SVM(Support Vector Machine) Model을 사용하여 다양한 시도를 할 것이다. 2. Background 영향령 있는 트위터 유저들의 트윗은 특정 주식 가격에 영향을 미칠 수 있다는 것을 발견했다. 예를 들어, 최근에 유명한 전기 자동차 회사인 Tesla의 주식은 자율 주행에 대한 Elon Musk(Tesla CEO)의 트윗이 업데이트 되고 난 후에 크게 상승했다. 게다가, AP(Associated Press) 통신의 트위터 계정이 백악관에서...&hellip;</p>
+		
+			<div class="text-center">
+			
+				<a href="http://localhost:4000/blog/thesis-1-using-tweets" data-toggle="tooltip" title="졸업작품을 위한 논문 번역 및 분석" class="more-link btn btn-danger btn-large">
+					<i class="fa fa-link"></i> read more...
+				</a>
+			
+			</div>
+		</div>
+	</article>
+</div>
+		
+	
+		
+
+		
+		
+
+		
+
+		
+
+	    
+
+		
+	        
+			
+		
+<div class="row">
+	<article class="post post col-md-8 col-md-offset-2">
+		<header class="post-header">
+		
+		
+		
+				<h2 class="post-title text-center super lighter bordered-bottom">
+					<a href="http://localhost:4000/blog/set-up-jekyll">Jekyll 설정하기</a> 
+		
+			</h2>
+
+			<div class="post-info text-center small">
+				<time datetime="2017-02-02T00:00:00+09:00" class="post-time">02 Feb 2017</time>
+
+			
+				
+			 
+				
+			in <span class="post-tags">
+				
+			
+				<a href="http://localhost:4000/categories/index.html#jekyll" data-toggle="tooltip" title="Other posts from the Jekyll category" rel="tag">
+					Jekyll
+				</a>
+			
+			
+			</span>
+				
+			
+			&nbsp;<span class="post-tags"><i class="fa fa-clock-o"></i>&nbsp;
+				
+					1 minute read
+				
+
+				
+
+				
+				</span>
+			
+			</div>
+		</header>
+
+		<div class="post-body bordered-bottom">
+			 
+			
+		
+			<p>Jekyll 설정하기 Jekyll을 설정하는 것은 생각보다 고통스럽다. Jekyll 간단하고 블로그스러운 정적 웹페이지 생성기 가장 큰 이점은 GitHub를 통해 Page, Blog 또는 WebSite를 무료로 호스팅 할 수 있음 요구사항(Requirements) GNU/Linux, Unix 또는 MacOS Ruby 버전 2.0 이상 RubyGems GCC와 Make 설정하기(Set-Up) 운영체제(OS) 운영체제는 여러 가지가 있지만 우분투 16.04 LTS가 기타 패키지들이 최신이어서 선택함 Ubuntu 16.04 LTS Ruby 설치 Ruby와 Ruby-dev 둘 다 필요함 sudo apt-get install ruby ruby-dev RubyGems RubyGems는 Ruby를 설치 한 후 다음 명령어를 실행 sudo gem update --system GCC와 Make GCC와 Make는 Ubuntu Desktop 버전을 설치해다면 자동으로 설치되어 있음 설치 여부가 궁금하다면 다음 명령어를 실행 gcc -v make...&hellip;</p>
+		
+			<div class="text-center">
+			
+				<a href="http://localhost:4000/blog/set-up-jekyll" data-toggle="tooltip" title="Read more about Jekyll 설정하기" class="more-link btn btn-danger btn-large">
+					<i class="fa fa-link"></i> read more...
+				</a>
+			
+			</div>
+		</div>
+	</article>
+</div>
+		
+	
+		
+
+		
+		
+
+		
+
+		
+<div class="row">
+	<article class="post col-md-10 col-md-offset-1">
+		<header class="post-header">
+			<h2 class="post-title text-center super lighter">
+				<a href="http://localhost:4000/blog/in-developing" style="color: #c91b26"><i class="fa fa-retweet"></i> "개발 중인 블로그입니다.
+"</a>
+			</h2>
+			<p class="light small text-center">
+				Share this Status
+			</p>
+			<ul class="social-mini text-center">
+				<li>
+					<a href="https://twitter.com/intent/tweet?text=&quot;In Developing&quot;%20http://localhost:4000/blog/in-developing%20via%20&#64;"
+						onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter">
+						<i class="fa fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/in-developing" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"
+						data-toggle="tooltip" title="Share on Facebook">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://plus.google.com/share?url=http://localhost:4000/blog/in-developing" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"
+						data-toggle="tooltip" title="Share on Google plus">
+						<i class="fa fa-google-plus"></i>
+					</a>
+				</li>
+			</ul>
+			<div class="post-info text-center small">
+				Status posted @
+				<time datetime="2017-01-26T00:00:00+09:00" class="post-time">26 Jan 2017</time>
+
+				
+					
+				 
+				
+				in <span class="post-tags">
+					
+				
+				
+				<a href="http://localhost:4000/categories/index.html#status" data-toggle="tooltip" title="Other posts from the Status category" rel="tag">
+					Status
+				</a>
+
+					
+				
+				</span>&nbsp;
+
+				<span class="post-tags">by Hue/HyoJong Kim</span>
+				<div class="post-body bordered-bottom"></div>
+			</div>
+		</header>
+	</article>
+</div>
+		
+
+	    
+
+		
+	        
+			
+		
+	
+
+	
+	
+                </div>    
+            </div>
+        </div>
+    </div>
+
+    
+<footer id="footer" class="blog-background overlay text-center align-middle animated from-top" style="background-image: url(http://localhost:4000/images/default_bg.jpg)">
+
+
+    <div class="inner">
+        <div class="container">
+            <ul class="social-icons">
+                  
+                <li>
+                    <a href="http://plus.google.com/106614560259593800150" data-toggle="tooltip" title="Hue/HyoJong Kim on Google+" target="_blank">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                </li>
+                     
+            </ul>
+            <div>
+                <a href="http://localhost:4000/about/">Hue/HyoJong Kim</a> &copy; 2017 &bull;
+                All rights reserved.
+            </div>
+            <ul class="menu-items">
+                
+                <li>
+                    
+                    <a href="http://localhost:4000/"><i class="fa fa-home"></i></a>&nbsp;&bull;
+                    
+                </li>
+                
+                <li>
+                    
+                    <a href="http://localhost:4000/categories">Categories</a>&nbsp;&bull;
+                    
+                </li>
+                
+                <li>
+                    
+                    <a href="http://localhost:4000/tags">Tags</a>&nbsp;&bull;
+                    
+                </li>
+                
+                <li><a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="decor-wrapper">
+        <svg id="footer-decor" class="decor top" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+            <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+            <path class="medium left" d="M0 0 L50 50 L0 66.6" fill="rgba(255,255,255, .3)"></path>
+            <path class="medium right" d="M100 0 L50 50 L100 66.6" fill="rgba(255,255,255, .3)"></path>
+            <path class="small left" d="M0 0 L50 50 L0 33.3" fill="rgba(255,255,255, .5)"></path>
+            <path class="small right" d="M100 0 L50 50 L100 33.3" fill="rgba(255,255,255, .5)"></path>
+            <path d="M0 0 L50 50 L100 0 L0 0" fill="rgba(255,255,255, 1)"></path>
+            <path d="M48 48 L50 51 L52 48 L48 48" fill="rgba(255,255,255, 1)"></path>    
+        </svg>
+    </div>
+    
+    
+</footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="http://localhost:4000/assets/js/plugins/jekyll-search.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/plugins/jquery.fitvids.js"></script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/plugins/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/main.js"></script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/script.js"></script>
+<script type='text/javascript'>$(document).ready(function(){$(".time").text(function(a,b){return Math.round(parseFloat(b))})});</script>
+
+<script type="text/javascript">
+
+/*      Slides       */
+
+$("a#slide").click(function(){
+    $("#sidebar,body,a#slide,#fade").addClass("slide")
+});
+
+$("#fade,#header,#posts-container").click(function(){
+    $("#sidebar,body,a#slide,#fade").removeClass("slide")
+});
+
+$("a#click-filter").click(function(){
+    $("#slide-filter").slideToggle("medium");
+    $("#slide-pages").slideOut("medium");
+});
+
+$("a#click-pages").click(function(){
+    $("#slide-pages").slideToggle("medium");
+    $("#slide-filter").slideOut("medium");
+});
+
+/*      End-Slides      */
+
+</script>
+
+
+<!-- Jekyll Simple Search option -->
+<script>
+
+   SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: 'http://localhost:4000/assets/json/search.json',
+        searchResultTemplate: '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+        noResultsText: '<p>Nothing found.</p>',
+        limit: 10,
+        fuzzy: false,
+        exclude: ['Welcome']
+      });
+
+  (function( $, window, undefined ) {
+    
+     var bs = {
+          close: $("#search-close"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+    
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+    
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
+
+
+ 
+
+  
+</body>
+</html>

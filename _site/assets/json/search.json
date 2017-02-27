@@ -1,0 +1,39 @@
+[
+  
+    {
+      "title"    : "Twitter Mood Predicts the Stock Market",
+      "category" : "personal",
+      "tags"     : "thesis",
+      "url"      : "/blog/thesis-2-twitter-mood",
+      "date"     : "2017-02-19 00:00:00 +0900",
+			"shortdate": "February 19, 2017"
+    } ,
+  
+    {
+      "title"    : "Using Tweets to Predict the Stock Market",
+      "category" : "thesis",
+      "tags"     : "thesis",
+      "url"      : "/blog/thesis-1-using-tweets",
+      "date"     : "2017-02-16 00:00:00 +0900",
+			"shortdate": "February 16, 2017"
+    } ,
+  
+    {
+      "title"    : "Jekyll 설정하기",
+      "category" : "jekyll",
+      "tags"     : "jekyll",
+      "url"      : "/blog/set-up-jekyll",
+      "date"     : "2017-02-02 00:00:00 +0900",
+			"shortdate": "February 02, 2017"
+    } ,
+  
+    {
+      "title"    : "In Developing",
+      "category" : "status",
+      "tags"     : "status",
+      "url"      : "/blog/in-developing",
+      "date"     : "2017-01-26 00:00:00 +0900",
+			"shortdate": "January 26, 2017"
+    } 
+  
+]
