@@ -25,7 +25,7 @@ Arcus의 아키텍쳐는 아래 이미지에 나와있다. Memcached Node는 그
 
 시작할 때, 각 Memcached Node는 ZooKeeper와 접촉하고 그들이 가진 Service Code를 찾는다. 그러면 Node는 그들의 이름을 Cash List에 삽입하고, 클라이언트가 볼 수 있게 된다. ZooKeeper는 주기적으로 Cache Node가 살아있는지 체크하고, 만약 죽었다면 해당 Node를 Cache Cloud에서 제거한 후 Cache List를 갱신하고 클라이언트에게 알린다. Arcus 클라이언트는 그 최신 Cache List를 가지고 Key-Value 오퍼레이션에 대한 Cache Node를 찾기 위해 Consistent Hashing을 한다. Hubble은 Cache Cloud의 통계 자료를 수집하고 보여준다.
 
-![Arcus Architecture](/images/arcus-arcitecture.png)
+![Arcus Architecture](/images/arcus-architecture.png)
 
 ## Supported OS Platform
 
