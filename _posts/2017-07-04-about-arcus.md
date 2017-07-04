@@ -13,6 +13,8 @@ mathjax:
 ---
 # About Arcus
 
+Arcus에 대한 기본적인 이해가 필요하여 작성한다.
+
 ## Arcus Cache Cloud
 
 Arcus는 Naver Corp에서 개발한 Memcached 기반의 캐시 클라우드다. Arcus-Memcached는 Naver 서비스들의 기능 및 성능 요구 사항을 지원하도록 크게 수정되었다. Arcus는 Memcached의 기본 Key-Value 데이터 모델 외에도 구조화된 형태로 복수의 Value를 저장 및 탐색하기 위해 Collection Data Structure(List, Set, B+tree)를 지원한다.
@@ -25,7 +27,7 @@ Arcus의 아키텍쳐는 아래 이미지에 나와있다. Memcached Node는 그
 
 ![Arcus Architecture](/images/arcus-arcitecture.png)
 
-## Supported OS Platfomr
+## Supported OS Platform
 
 현재 Arcus는 64-bit Linux만 지원한다. 아래의 운영체제에서 테스트 되었다.
 
