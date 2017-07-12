@@ -4,7 +4,7 @@ title: "Twitter Mood Predicts the Stock Market"
 description: 졸업작품을 위한 논문 번역 및 분석
 headline: 
 modified: 2017-02-19
-category: personal
+category: thesis
 tags: [thesis]
 image: 
 feature: 
